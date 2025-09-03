@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelX - Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">TravelX</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="booking.html" class="active">Booking</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="booking">
+    <h2>Book Your Trip</h2>
+    <form id="bookingForm">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <select required>
+        <option value="">Select Destination</option>
+        <option>Paris</option>
+        <option>Maldives</option>
+        <option>Japan</option>
+        <option>New York</option>
+      </select>
+      <input type="date" required>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
